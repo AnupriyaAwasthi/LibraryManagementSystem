@@ -28,7 +28,7 @@ InventoryManagement
 +searchBookByIsbn(String)
 +searchBookByAuthor(String)
 +printAllBookDetails()
-![image](https://github.com/user-attachments/assets/cafd1a06-dc7b-41b4-84e5-5cd992dfec07)
+![image](https://github.com/user-attachments/assets/77c74958-1279-415d-8d5a-016af8a4a7cb)
 
 LendBookManagement
 -inventory : InventoryManagement
@@ -37,7 +37,7 @@ LendBookManagement
 +LendBookManagement(Inventorymanagement)
 +checkout(Book, Patron)
 +returnBook(Book)
-![image](https://github.com/user-attachments/assets/4f009300-fad1-4436-86a1-0a5b0229d6fb)
+![image](https://github.com/user-attachments/assets/dce9c090-5d3e-4ae5-86db-ce7811aeb87a)
 
 Patron
 -name : String
@@ -49,7 +49,7 @@ Patron
 +getters()
 +setters()
 +printPatronDetail()
-![image](https://github.com/user-attachments/assets/6409b156-502a-45b1-be1c-c128d83c6563)
+![image](https://github.com/user-attachments/assets/bf581ded-beb9-440d-b5e2-e20f24e423f0)
 
 PatronBookHistory
 -instance : PatronBookHistory
@@ -59,7 +59,7 @@ PatronBookHistory
 +getters()
 +addToHistory(Patron, Book)
 +printHistoryDetails()
-![image](https://github.com/user-attachments/assets/8e996409-c3d7-460b-9848-3f999f7ab063)
+![image](https://github.com/user-attachments/assets/e5ddf855-6817-4242-851e-5fc98597ed1e)
 
 PatronManagement
 -instance : PatronManagement
@@ -72,7 +72,9 @@ PatronManagement
 +updatePatron(Patron)
 +getPatronDetails(Patron)
 +getAllPatronDetails()
-![image](https://github.com/user-attachments/assets/57f6ee0a-8497-4ea9-9d2c-f9a9c7d1f036)
+![image](https://github.com/user-attachments/assets/531bf34a-cf8d-4ddc-818e-c2ee798f5c5d)
+
+
 
 RelationShips
 <img width="1001" alt="Screenshot 2025-06-30 at 9 13 38 PM" src="https://github.com/user-attachments/assets/68de1d1c-b6dd-4641-9721-5f0134c4403e" />

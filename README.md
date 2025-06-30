@@ -1,4 +1,4 @@
-# LibraryManagementSystem
+![image](https://github.com/user-attachments/assets/f8ccde3d-7081-428c-9be5-5e8aad1c0e59)# LibraryManagementSystem
 
 Class Diagrams :
 
@@ -18,7 +18,7 @@ Class Diagrams :
 
 
 RelationShips
-<img width="1001" alt="Screenshot 2025-06-30 at 9 13 38 PM" src="https://github.com/user-attachments/assets/68de1d1c-b6dd-4641-9721-5f0134c4403e" />
+<img width="300" alt="Screenshot 2025-06-30 at 9 13 38 PM" src="https://github.com/user-attachments/assets/68de1d1c-b6dd-4641-9721-5f0134c4403e" />
 
 
 Assumptions :

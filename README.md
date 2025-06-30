@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f8ccde3d-7081-428c-9be5-5e8aad1c0e59)# LibraryManagementSystem
+# LibraryManagementSystem
 
 Class Diagrams :
 

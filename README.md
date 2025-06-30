@@ -17,8 +17,10 @@ Class Diagrams :
 
 
 
-RelationShips
-<img width="300" alt="Screenshot 2025-06-30 at 9 13 38 PM" src="https://github.com/user-attachments/assets/68de1d1c-b6dd-4641-9721-5f0134c4403e" />
+RelationShips :
+
+
+<img width="500" alt="Screenshot 2025-06-30 at 9 13 38 PM" src="https://github.com/user-attachments/assets/68de1d1c-b6dd-4641-9721-5f0134c4403e" />
 
 
 Assumptions :

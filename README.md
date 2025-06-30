@@ -2,18 +2,7 @@
 
 Class Diagrams :
 
-Book
--title : String
--author : String
--isbn : String
--publishingYear : String
--isAvailable : boolean
--issuedTo : Patron
-+getters()
-+setters()
-+Book(String,String,String,String,boolean)
-+getBookDetails()
-+printBookIssuedTo()
+
 ![image](https://github.com/user-attachments/assets/9d759a08-2390-4779-ae58-917c1bd1db99)
 
 InventoryManagement

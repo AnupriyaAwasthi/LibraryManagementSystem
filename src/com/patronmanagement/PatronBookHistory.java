@@ -16,7 +16,7 @@ public class PatronBookHistory {
      *Singelton class so that the whole project shares a single mapping for all Patrons.
      * @return PatronBookHistory.
      */
-    public static PatronBookHistory getPatronBookHistory(){
+    public static PatronBookHistory getPatronBookHistoryInstance(){
         if (historyOfPatron == null){
             instance = new PatronBookHistory();
         }
@@ -54,6 +54,10 @@ public class PatronBookHistory {
      * Prints all the books issued to each Patron.
      */
     public static void printHistoryDetails(){
+        if ( historyOfPatron.isEmpty()) {
+            System.out.println("No Historical Data present.");
+            return;
+        }
         for (Map.Entry<Patron, List<Book>> entry : historyOfPatron.entrySet()) {
             Patron patron = entry.getKey();
             List<Book> books = entry.getValue();

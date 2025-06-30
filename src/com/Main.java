@@ -8,8 +8,7 @@ import com.patronmanagement.PatronBookHistory;
 import com.patronmanagement.PatronManagement;
 
 import static com.bookmanagement.InventoryManagement.*;
-import static com.patronmanagement.PatronBookHistory.getPatronBookHistory;
-import static com.patronmanagement.PatronBookHistory.printHistoryDetails;
+import static com.patronmanagement.PatronBookHistory.*;
 import static com.patronmanagement.PatronManagement.*;
 
 public class Main {
@@ -19,7 +18,7 @@ public class Main {
         //initialising all Singelton classes.
         InventoryManagement ims = getInventoryManagementInstance();
         PatronManagement pm = PatronManagement.getPatronManagementInstance();
-        PatronBookHistory pbh = getPatronBookHistory();
+        PatronBookHistory pbh = getPatronBookHistoryInstance();
 
         //Creating instances of Book.
         Book book1 = new Book("Love Story", "Erich Segal", "ABCD", "1999", true);

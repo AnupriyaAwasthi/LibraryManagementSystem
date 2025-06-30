@@ -9,7 +9,6 @@ import static com.patronmanagement.PatronManagement.getListOfPatrons;
 
 public class LendBookManagement {
     private InventoryManagement inventory;
-    private Patron patron;
 
     public LendBookManagement(InventoryManagement intentory) {
         this.inventory = intentory;
@@ -21,14 +20,6 @@ public class LendBookManagement {
 
     public void setInventory(InventoryManagement inventory) {
         this.inventory = inventory;
-    }
-
-    public Patron getPatron() {
-        return patron;
-    }
-
-    public void setPatron(Patron patron) {
-        this.patron = patron;
     }
 
     /**
